@@ -10,4 +10,6 @@ public class TestCases extends TestBase {
         GoogleWebToolkitPage googleWebToolkitPage = new GoogleWebToolkitPage();
         googleWebToolkitPage.checkBoxesTest();
     }
+
+
 }

@@ -18,11 +18,11 @@ public class GoogleWebToolkitPage extends PageBase {
         Random random = new Random();
 
         // I created one integer to store how many Fridays clicked
+
         int numOfFridayClicked = 0;
 
         // while numOfFridayClicked not EQUAL to 3
         while (numOfFridayClicked != 3) {
-            //
             WebElement temporary = checkboxes.get(random.nextInt(5));
             temporary.click();
             System.out.println("You selected = " + temporary.getText());
@@ -36,14 +36,9 @@ public class GoogleWebToolkitPage extends PageBase {
 
 
 
-     /*   int numOfFridayClicked = 0;
-        do {
-            WebElement temporary = checkboxes.get(5);
-            temporary.click();
-            System.out.println("You selected = " + temporary.getText());
-            temporary.click();
-            numOfFridayClicked++;
-        } while(numOfFridayClicked !=3);*/
+
+
+
 
 
     }
