@@ -19,6 +19,11 @@ public class TestCases extends TestBase {
         //googleWebToolkitPage.checkBoxesTest();
         googleWebToolkitPage.testing();
     }
+
+    @Test(priority = 2, description = "http://practice.cybertekschool.com/dropdown")
+    public void testCase_2(){
+
+    }
  
 
 }
