@@ -14,11 +14,6 @@ public class GoogleWebToolkitPage extends PageBase {
     private List<WebElement> checkboxesElements;
 
 
-
-
-
-
-
     public void checkBoxesTest() {
         // this class random it comes from  Java util(ready methods stores)
         // it clicks randomly, NOT by order
@@ -82,6 +77,9 @@ public class GoogleWebToolkitPage extends PageBase {
             // until numberOfFridaysClicked not equal 3
         } while (numberOfFridayClicked != 3);
     }
+
+
+
 
 
 

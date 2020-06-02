@@ -1,5 +1,6 @@
 package automation.tests;
 
+import automation.pages.CybertekDropdownPage;
 import automation.pages.GoogleWebToolkitPage;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,8 @@ public class TestCases extends TestBase {
 
     @Test(priority = 2, description = "http://practice.cybertekschool.com/dropdown")
     public void testCase_2(){
-
+        CybertekDropdownPage cybertekDropdownPage = new CybertekDropdownPage();
+        cybertekDropdownPage.verifyYearMonthDay();
     }
  
 
