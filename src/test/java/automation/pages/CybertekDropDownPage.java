@@ -40,7 +40,7 @@ public class CybertekDropDownPage extends  PageBase{
         //Day version 2 (advanced) second way of checking
         String actualDay2 =selectDay.getFirstSelectedOption().getText();
         Assert.assertEquals("11", LocalDate.now().format(DateTimeFormatter.ofPattern("dd")));
-// if we want to check year month day                                               2020 June 01
+        // if we want to check year month day                                               2020 June 01
         Assert.assertEquals("11", LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy MMMM dd")));
 
     }
